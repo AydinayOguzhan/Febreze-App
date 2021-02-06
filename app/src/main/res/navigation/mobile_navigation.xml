@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@+id/nav_home">
+
+    <fragment
+            android:id="@+id/nav_home"
+            android:name="com.example.febrezemobileapp.ui.home.HomeFragment"
+            android:label="@string/menu_home"
+            tools:layout="@layout/fragment_home"/>
+
+    <fragment
+            android:id="@+id/nav_market"
+            android:name="com.example.febrezemobileapp.ui.market.MarketFragment"
+            android:label="@string/menu_market"
+            tools:layout="@layout/fragment_market"/>
+
+    <fragment
+            android:id="@+id/nav_shopping_cart"
+            android:name="com.example.febrezemobileapp.ui.shoppingCart.ShoppingCartFragment"
+            android:label="@string/menu_shopping_cart"
+            tools:layout="@layout/fragment_shopping_cart"/>
+
+    <fragment
+            android:id="@+id/nav_event_calendar"
+            android:name="com.example.febrezemobileapp.ui.event_calendar.EventFragment"
+            android:label="@string/menu_event_calendar"
+            tools:layout="@layout/fragment_event_calendar"/>
+
+    <fragment
+        android:id="@+id/nav_qr_code_reader"
+        android:name="com.example.febrezemobileapp.ui.qrCodeReader.QrCodeReaderFragment"
+        android:label="@string/menu_qr_code_reader"
+        tools:layout="@layout/fragment_qr_code_reader"
+    />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.febrezemobileapp.ui.feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+    />
+</navigation>

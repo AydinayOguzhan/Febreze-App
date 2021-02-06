@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+    >
+
+        <ImageView
+                android:id="@+id/imScProductImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+        />
+
+        <TextView
+                android:id="@+id/tvScProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_alignParentEnd="true"
+
+                android:text="Poduct Name"
+        />
+
+        <TextView
+                android:id="@+id/tvScProductDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tvScProductName"
+                android:layout_marginTop="20dp"
+                android:text="Product Description"
+        />
+
+        <TextView
+                android:id="@+id/tvScProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tvScProductDescription"
+                android:layout_marginTop="20dp"
+                android:text="Product Description"
+        />
+
+        <Button
+                android:id="@+id/btnScDiscard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tvScProductPrice"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/market_button_shape"
+                android:textColor="@color/colorWhite"
+                android:text="Ürünü sil"
+        />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satın Alım Formu"
+                android:textSize="40sp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+        />
+
+
+        <EditText
+                android:id="@+id/etpiFirstName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Ad"
+        />
+
+        <EditText
+                android:id="@+id/etpiLastName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etpiFirstName"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Soyad"
+        />
+
+        <EditText
+                android:id="@+id/etpiGmail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etpiLastName"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Gmail"
+        />
+
+        <EditText
+                android:id="@+id/etpiContact"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etpiGmail"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="İletişim Numarası"
+                android:inputType="number"
+        />
+
+        <EditText
+                android:id="@+id/etpiIl"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etpiContact"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="İl"
+        />
+
+        <EditText
+                android:id="@+id/etpiIlce"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etpiIl"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="İlçe"
+        />
+
+        <EditText
+                android:id="@+id/etpiAddress"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/etpiIlce"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Adres"
+        />
+
+        <Button
+                android:id="@+id/btnpiApply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etpiAddress"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/market_button_shape"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/nimbus_sans_font_family"
+                android:text="Başvur"
+        />
+    </RelativeLayout>
+</ScrollView>

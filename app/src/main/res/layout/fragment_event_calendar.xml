@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/imImage"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:src="@drawable/deneme"
+    />
+
+    <Button
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imImage"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/market_button_shape"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/nimbus_sans_font_family"
+            android:text="Hemen Başvur!"
+    />
+
+</RelativeLayout>

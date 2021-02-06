@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Başvuru Formu"
+                android:textSize="40sp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+        />
+
+
+        <EditText
+                android:id="@+id/etFirstName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Ad"
+        />
+
+        <EditText
+                android:id="@+id/etLastName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etFirstName"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Soyad"
+        />
+
+        <EditText
+                android:id="@+id/etGmail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etLastName"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Gmail"
+        />
+
+        <EditText
+                android:id="@+id/etContact"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etGmail"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="İletişim Numarası"
+                android:inputType="number"
+        />
+
+        <EditText
+                android:id="@+id/etIl"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etContact"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="İl"
+        />
+
+        <EditText
+                android:id="@+id/etIlce"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etIl"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="İlçe"
+        />
+
+        <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/etIlce"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Adres"
+        />
+
+        <Button
+                android:id="@+id/btnApplyApply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etAddress"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/market_button_shape"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/nimbus_sans_font_family"
+                android:text="Başvur"
+        />
+    </RelativeLayout>
+</ScrollView>

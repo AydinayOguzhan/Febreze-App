@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    >
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şikayet ve İsteklerinizi Yazınız."
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+        />
+
+        <EditText
+            android:id="@+id/etFeedback"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvText"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etFeedback"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/market_button_shape"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/nimbus_sans_font_family"
+            android:text=" Gönder "
+        />
+
+    </RelativeLayout>
+</ScrollView>

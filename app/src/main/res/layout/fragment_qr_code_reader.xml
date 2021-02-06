@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.qrCodeReader.QrCodeReaderFragment"
+>
+
+    <Button
+        android:id="@+id/btnQr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Qr kod okut  "
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/market_button_shape"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/nimbus_sans_font_family"
+    />
+
+    <TextView
+        android:id="@+id/tvQrResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+    />
+    <TextView
+            android:id="@+id/tvQrCodeResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+    />
+    <TextView
+            android:id="@+id/tvQrKind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+    />
+    <TextView
+            android:id="@+id/tvQrKindResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+    />
+
+</LinearLayout>

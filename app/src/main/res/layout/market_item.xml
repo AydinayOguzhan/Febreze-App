@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:padding="8dp"
+
+    >
+
+        <ImageView
+                android:id="@+id/imProductImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+        />
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/coolvetica_font_family"
+            android:text="Poduct Name"
+        />
+
+        <TextView
+            android:id="@+id/tvProductDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tvProductName"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nimbus_sans_font_family"
+            android:text="Product Description"
+        />
+
+        <TextView
+                android:id="@+id/tvProductPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tvProductDescription"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nimbus_sans_font_family"
+                android:text="Product Description"
+        />
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tvProductPrice"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/market_button_shape"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/nimbus_sans_font_family"
+            android:text=" Sepete Ekle "
+        />
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

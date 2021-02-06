@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FebrezeMobileApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Febreze</string>
+    <string name="nav_header_subtitle">Febreze cebinizde!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_market">Market</string>
+    <string name="menu_shopping_cart">Sepet</string>
+    <string name="menu_event_calendar">Tur Takvimi</string>
+    <string name="menu_qr_code_reader">Qr Kod</string>
+    <string name="menu_feedback">İstek, Öneri ve Şikayet</string>
+
+
+    <!--Main menu texts -->
+    <string name="mainMenuAnnouncement1">4 Mayıs Dünya Çiçek Günü "DOĞADAN BİRER PARÇA"Etkinliği</string>
+</resources>
